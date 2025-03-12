@@ -1,8 +1,6 @@
 package me.dio.domain.model;
 
-import jakarta.persistence.Entity;
-
-import java.math.BigDecimal;
+import jakarta.persistence.*;
 
 @Entity(name = "tab_account")
 public class Account {
@@ -37,4 +35,12 @@ public class Account {
     public float getLimit() { return limit; }
 
     public void setLimit(float limit) { this.limit = limit; }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Long getId() {
+        return id;
+    }
 }

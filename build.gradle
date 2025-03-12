@@ -32,5 +32,5 @@ tasks.named('test') {
 }
 
 bootRun {
-    jvmArgs = ['-Dspring.profiles.active=dev']  // Se necessário, defina o perfil ativo para o Spring Boot
+    jvmArgs = ['-Dspring.profiles.active=dev'] 
 }

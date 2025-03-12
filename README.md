@@ -1,5 +1,5 @@
 # Santander Dev week 2025
-Java RESTful API criada para o santander Deev week
+Java RESTful API criada para o santander Dev week
 
 ## Diagrama de classes
 

@@ -53,4 +53,8 @@ public class User {
     public List<News> getNews() { return news; }
 
     public void setNews(List<News> news) { this.news = news; }
+
+    public Object getId() {
+        return null;
+    }
 }

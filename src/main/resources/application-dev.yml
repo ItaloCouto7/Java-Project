@@ -1,13 +1,13 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:sdw2025
+    url: jdbc:h2:file:./data/sdw2025
     username: sdw2025
     password: "italopc2005"
   jpa:
     show-sql: true
     open-in-view: false
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     properties:
       hibernate:
         format_sql: true
@@ -18,4 +18,5 @@ spring:
       settings:
         trace: false
         web-allow-others: false
+
 

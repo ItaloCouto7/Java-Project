@@ -9,15 +9,9 @@ public class Account {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(unique = true)
     private String number;
-
     private String agency;
-
-    @Column(scale = 13, precision = 2)
     private float balance;
-
-    @Column(scale = 2, precision = 13)
     private float limit;
 
     public String getNumber() { return number; }
